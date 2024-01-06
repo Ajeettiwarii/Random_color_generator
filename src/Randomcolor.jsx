@@ -1,12 +1,13 @@
-import react, { useEffect, useState } from "react" 
+import react, { useEffect, useState } from "react"  
+
 function Randomcolor(){    
       const[typeofcolor,settypeofcolor]=useState('hex'); 
       const[color,setcolor]=useState('#000000')   
 
        function randomutility(length){ 
-        return Math.floor(Math.random()*length)
+        return Math.floor(Math.random()*length) 
 
-       }
+       } 
 
      function handlecreatehexcolor(){ 
         const hex = [1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F']  
